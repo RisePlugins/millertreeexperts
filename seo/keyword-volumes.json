@@ -1,0 +1,2103 @@
+{
+    "version": "0.1.20260218",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.0442 sec.",
+    "cost": 0.075,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "02200417-1346-0367-0000-dd881ff660b8",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "2.9777 sec.",
+            "cost": 0.075,
+            "result_count": 40,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "keywords": [
+                    "tree service berryville va",
+                    "tree removal berryville va",
+                    "tree trimming berryville va",
+                    "stump grinding berryville va",
+                    "tree service clarke county va",
+                    "tree removal near me",
+                    "tree service near me",
+                    "tree company berryville virginia",
+                    "emergency tree removal berryville",
+                    "lot clearing berryville va",
+                    "tree pruning berryville va",
+                    "storm damage tree removal virginia",
+                    "tree service winchester va",
+                    "tree removal winchester va",
+                    "tree trimming winchester va",
+                    "stump grinding winchester va",
+                    "tree service front royal va",
+                    "tree removal front royal va",
+                    "tree service charles town wv",
+                    "tree removal charles town wv",
+                    "tree service shenandoah valley",
+                    "arborist berryville va",
+                    "arborist near me",
+                    "tree care berryville va",
+                    "affordable tree removal virginia",
+                    "best tree service berryville va",
+                    "tree service leesburg va",
+                    "tree removal leesburg va",
+                    "tree service purcellville va",
+                    "tree service round hill va",
+                    "tree service middleburg va",
+                    "tree service stephens city va",
+                    "tree removal strasburg va",
+                    "tree service woodstock va",
+                    "tree service harrisonburg va",
+                    "tree service martinsburg wv",
+                    "tree removal martinsburg wv",
+                    "tree service hagerstown md",
+                    "tree removal hagerstown md",
+                    "tree service frederick md"
+                ],
+                "location_code": 2840,
+                "language_code": "en",
+                "date_from": "2025-01-01",
+                "date_to": "2025-12-01"
+            },
+            "result": [
+                {
+                    "keyword": "tree service berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 81,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 92,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 27.32,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree trimming berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "stump grinding berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree service clarke county va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree removal near me",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 40,
+                    "search_volume": 74000,
+                    "low_top_of_page_bid": 5.22,
+                    "high_top_of_page_bid": 27.92,
+                    "cpc": 17.59,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 33100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 27100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 60500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 74000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 74000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 74000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 90500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 74000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 110000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 135000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 74000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 49500
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service near me",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 44,
+                    "search_volume": 165000,
+                    "low_top_of_page_bid": 4.6,
+                    "high_top_of_page_bid": 25,
+                    "cpc": 12.98,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 165000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 201000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 165000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 201000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 201000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 201000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 246000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 301000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 165000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 135000
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree company berryville virginia",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "emergency tree removal berryville",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "lot clearing berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree pruning berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "storm damage tree removal virginia",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree service winchester va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 87,
+                    "search_volume": 320,
+                    "low_top_of_page_bid": 7.81,
+                    "high_top_of_page_bid": 26.17,
+                    "cpc": 10.96,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal winchester va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 87,
+                    "search_volume": 170,
+                    "low_top_of_page_bid": 8.81,
+                    "high_top_of_page_bid": 50.5,
+                    "cpc": 0.81,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 140
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree trimming winchester va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 87,
+                    "search_volume": 320,
+                    "low_top_of_page_bid": 7.81,
+                    "high_top_of_page_bid": 26.17,
+                    "cpc": 10.96,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "stump grinding winchester va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 93,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 0
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service front royal va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 55,
+                    "search_volume": 50,
+                    "low_top_of_page_bid": 11.24,
+                    "high_top_of_page_bid": 29,
+                    "cpc": 3.51,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 30
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal front royal va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 89,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service charles town wv",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 82,
+                    "search_volume": 20,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 106.73,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal charles town wv",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 100,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service shenandoah valley",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "arborist berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "arborist near me",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 52,
+                    "search_volume": 33100,
+                    "low_top_of_page_bid": 4.87,
+                    "high_top_of_page_bid": 23.61,
+                    "cpc": 14.63,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 18100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 33100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 40500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 40500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 40500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 49500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 49500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 49500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 40500
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 27100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 18100
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree care berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "affordable tree removal virginia",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "best tree service berryville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree service leesburg va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 47,
+                    "search_volume": 210,
+                    "low_top_of_page_bid": 18.8,
+                    "high_top_of_page_bid": 66.55,
+                    "cpc": 23.03,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal leesburg va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 65,
+                    "search_volume": 70,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 17.39,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 140
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service purcellville va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 69,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 13.29,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service round hill va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service middleburg va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree service stephens city va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 25,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal strasburg va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree service woodstock va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "tree service harrisonburg va",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 68,
+                    "search_volume": 90,
+                    "low_top_of_page_bid": 5.06,
+                    "high_top_of_page_bid": 17.53,
+                    "cpc": 1.93,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 70
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service martinsburg wv",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 87,
+                    "search_volume": 110,
+                    "low_top_of_page_bid": 6.05,
+                    "high_top_of_page_bid": 41.21,
+                    "cpc": 20.78,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 70
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal martinsburg wv",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 65,
+                    "search_volume": 50,
+                    "low_top_of_page_bid": 13.83,
+                    "high_top_of_page_bid": 54.41,
+                    "cpc": 30.29,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 30
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service hagerstown md",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 68,
+                    "search_volume": 170,
+                    "low_top_of_page_bid": 8.28,
+                    "high_top_of_page_bid": 26.99,
+                    "cpc": 7.02,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 140
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree removal hagerstown md",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 67,
+                    "search_volume": 110,
+                    "low_top_of_page_bid": 6.74,
+                    "high_top_of_page_bid": 22.97,
+                    "cpc": 22.81,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 40
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tree service frederick md",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 59,
+                    "search_volume": 170,
+                    "low_top_of_page_bid": 4.64,
+                    "high_top_of_page_bid": 42.47,
+                    "cpc": 13.25,
+                    "monthly_searches": [
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 4,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 3,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 2,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 1,
+                            "search_volume": 140
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

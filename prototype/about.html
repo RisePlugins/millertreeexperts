@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Miller Tree Experts | Berryville VA Tree Service | Our Story</title>
+    <meta name="description" content="Learn about Miller Tree Experts LLC — a family-owned tree service in Berryville, VA. Owner Chris Miller and his experienced crew serve Virginia, Maryland &amp; West Virginia with honest, quality tree care. 5.0 Google rated.">
+    <meta name="keywords" content="about miller tree experts, tree service berryville va, chris miller arborist, shenandoah valley tree service, local tree company, family owned tree service">
+    <meta property="og:title" content="About Miller Tree Experts | Berryville VA Tree Service">
+    <meta property="og:description" content="Family-owned tree care serving Virginia, Maryland &amp; West Virginia. Meet the team behind the Shenandoah Valley's most trusted tree service.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://millertreeexperts.com/about">
+    <meta property="og:image" content="https://millertreeexperts.com/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://millertreeexperts.com/about">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Miller Tree Experts LLC",
+            "image": "https://millertreeexperts.com/logo.png",
+            "description": "Family-owned tree-care company specializing in tree removal, pruning, stump grinding and clean-ups serving Virginia, Maryland, and West Virginia.",
+            "@id": "https://millertreeexperts.com",
+            "url": "https://millertreeexperts.com",
+            "telephone": "(540) 313-1306",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "253 Chilly Hollow Rd",
+                "addressLocality": "Berryville",
+                "addressRegion": "VA",
+                "postalCode": "22611",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.1518,
+                "longitude": -77.9714
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                    "opens": "09:00",
+                    "closes": "17:00"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "115",
+                "bestRating": "5"
+            },
+            "areaServed": [
+                {"@type": "State", "name": "Virginia"},
+                {"@type": "State", "name": "Maryland"},
+                {"@type": "State", "name": "West Virginia"}
+            ],
+            "founder": {
+                "@type": "Person",
+                "name": "Chris Miller",
+                "jobTitle": "Owner / Lead Arborist"
+            },
+            "sameAs": [
+                "https://www.facebook.com/millertreeexpert/",
+                "https://www.instagram.com/millertreeexperts/"
+            ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "About Miller Tree Experts",
+            "description": "Learn about Miller Tree Experts LLC, a family-owned tree service based in Berryville, Virginia, serving communities across Virginia, Maryland, and West Virginia.",
+            "url": "https://millertreeexperts.com/about",
+            "mainEntity": {
+                "@type": "LocalBusiness",
+                "@id": "https://millertreeexperts.com"
+            }
+        }
+    ]
+    </script>
+
+    <link rel="stylesheet" href="css/global.css">
+
+    <style>
+        /* ========================================
+           OUR STORY (about grid)
+           ======================================== */
+        .story__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-lg);
+            align-items: stretch;
+        }
+        .story__image {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            position: relative;
+        }
+        .story__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .story__image-badge {
+            position: absolute;
+            bottom: 1.25rem;
+            left: 1.25rem;
+            background: var(--white);
+            border-radius: var(--radius-md);
+            padding: 0.75rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            box-shadow: var(--shadow-lg);
+        }
+        .story__image-badge-icon {
+            width: 40px; height: 40px;
+            background: var(--green-pale);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .story__image-badge-icon svg { width: 20px; height: 20px; color: var(--green); }
+        .story__image-badge-text { font-weight: 600; font-size: 0.85rem; }
+        .story__image-badge-sub { font-size: 0.75rem; color: var(--slate-light); }
+
+        .story__text p {
+            font-size: 1.02rem;
+            color: var(--slate-mid);
+            line-height: 1.8;
+            margin-bottom: 1.25rem;
+            font-weight: 300;
+        }
+        .story__text p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ========================================
+           VALUES GRID
+           ======================================== */
+        .values__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+        }
+        .value-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            padding: 2rem 1.75rem;
+            transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+        }
+        .value-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: transparent;
+        }
+        .value-card__icon {
+            width: 48px; height: 48px;
+            background: var(--green-pale);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--green);
+            margin-bottom: 1.25rem;
+        }
+        .value-card__icon svg { width: 24px; height: 24px; }
+        .value-card__title {
+            font-family: var(--font-heading);
+            font-size: 1.05rem;
+            color: var(--slate);
+            margin-bottom: 0.5rem;
+        }
+        .value-card__desc {
+            font-size: 0.9rem;
+            color: var(--slate-light);
+            line-height: 1.65;
+            font-weight: 300;
+        }
+
+        /* ========================================
+           TEAM SECTION
+           ======================================== */
+        .team__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-lg);
+            align-items: center;
+        }
+        .team__content p {
+            font-size: 1.02rem;
+            color: var(--slate-mid);
+            line-height: 1.8;
+            margin-bottom: 1.25rem;
+            font-weight: 300;
+        }
+        .team__content p:last-child {
+            margin-bottom: 0;
+        }
+        .team__members {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .team-card {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            background: var(--green-wash);
+            border: 1px solid var(--green-pale);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+        .team-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        .team-card__avatar {
+            width: 64px; height: 64px;
+            min-width: 64px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .team-card__avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .team-card__name {
+            font-family: var(--font-heading);
+            font-size: 1.05rem;
+            color: var(--slate);
+            margin-bottom: 0.15rem;
+        }
+        .team-card__role {
+            font-size: 0.85rem;
+            color: var(--green);
+            font-weight: 600;
+            margin-bottom: 0.35rem;
+        }
+        .team-card__desc {
+            font-size: 0.85rem;
+            color: var(--slate-light);
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        /* ========================================
+           STATS (bigger version)
+           ======================================== */
+        .stats-big {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.25rem;
+        }
+        .stat-big {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: transform var(--transition), box-shadow var(--transition);
+        }
+        .stat-big:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+        .stat-big__number {
+            font-family: var(--font-heading);
+            font-size: clamp(2.4rem, 4vw, 3.2rem);
+            color: var(--green);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .stat-big__label {
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--slate-light);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        /* ========================================
+           EQUIPMENT SECTION
+           ======================================== */
+        .equipment__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-lg);
+            align-items: stretch;
+        }
+        .equipment__image {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+        }
+        .equipment__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .equipment__features {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+            margin-top: var(--space-md);
+        }
+        .equipment__feat {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 1rem;
+            background: var(--white);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--gray-200);
+        }
+        .equipment__feat-icon {
+            width: 36px; height: 36px;
+            min-width: 36px;
+            background: var(--green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+        }
+        .equipment__feat-icon svg { width: 16px; height: 16px; }
+        .equipment__feat-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.15rem;
+        }
+        .equipment__feat-desc {
+            font-size: 0.82rem;
+            color: var(--slate-light);
+            line-height: 1.5;
+        }
+
+        /* ========================================
+           RESPONSIVE
+           ======================================== */
+        @media (min-width: 640px) {
+            .values__grid { grid-template-columns: repeat(2, 1fr); }
+            .stats-big { grid-template-columns: repeat(4, 1fr); }
+            .team__members { grid-template-columns: 1fr; }
+            .equipment__features { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (min-width: 768px) {
+            .values__grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        @media (min-width: 1024px) {
+            .story__grid { grid-template-columns: 1fr 1fr; }
+            .team__grid { grid-template-columns: 1fr 1fr; }
+            .equipment__grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="nav" role="banner">
+        <div class="container">
+            <a href="index-v2.html" class="nav__logo" aria-label="Miller Tree Experts - Home">
+                <img src="images/miller-tree-logo.png" alt="Miller Tree Experts LLC logo" width="140" height="44">
+            </a>
+            <nav class="nav__links" aria-label="Main navigation">
+                <a href="services.html">Services</a>
+                <a href="about.html" class="active">About</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="contact.html">Contact</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+            <div class="nav__cta">
+                <a href="contact.html">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Free Estimate
+                </a>
+            </div>
+            <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+            </button>
+        </div>
+        <nav class="nav__mobile" aria-label="Mobile navigation">
+            <div class="nav__mobile-inner">
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="contact.html">Contact</a>
+                <a href="blog.html">Blog</a>
+                <a href="tel:5403131306" class="nav__mobile-phone">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    (540) 313-1306
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PAGE HERO -->
+        <section class="page-hero" aria-labelledby="page-hero-title">
+            <div class="page-hero__image" role="presentation">
+                <img src="images/generated/about-bg.jpg" alt="" aria-hidden="true">
+            </div>
+            <div class="page-hero__content">
+                <div class="container">
+                    <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+                        <a href="index-v2.html">Home</a>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                        <span>About Us</span>
+                    </nav>
+                    <h1 id="page-hero-title" class="page-hero__title">About Miller Tree Experts</h1>
+                    <p class="page-hero__subtitle">Family-owned. Community-driven. Committed to the Shenandoah Valley since day one.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR STORY -->
+        <section class="section section--lg" aria-labelledby="story-title">
+            <div class="container">
+                <div class="story__grid">
+                    <div class="story__image reveal">
+                        <img src="images/generated/about-bg.jpg" alt="Miller Tree Experts crew working on a tree care project in the Shenandoah Valley" loading="lazy">
+                        <div class="story__image-badge">
+                            <div class="story__image-badge-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                            </div>
+                            <div>
+                                <div class="story__image-badge-text">Locally Owned &amp; Operated</div>
+                                <div class="story__image-badge-sub">Berryville, Virginia</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reveal">
+                        <div class="section__eyebrow">Our Story</div>
+                        <h2 id="story-title" class="section__title">Built on Hard Work &amp; Honest Service</h2>
+                        <div class="story__text">
+                            <p>Chris Miller grew up in the Shenandoah Valley, surrounded by the rolling hills, dense hardwoods, and tight-knit communities that make this part of Virginia unlike anywhere else. He spent his early years working outdoors, learning the landscape, and developing a deep respect for both the land and the people who call it home.</p>
+                            <p>After years of working alongside experienced arborists and learning the tree care trade from the ground up, Chris saw an opportunity to do things his own way. He founded Miller Tree Experts LLC with a straightforward idea: provide the kind of tree service he would want for his own property. That meant showing up when promised, doing the job right, pricing it fairly, and leaving every yard cleaner than he found it.</p>
+                            <p>What started as a one-man operation with a truck and a chainsaw has grown into a trusted tree care company serving homeowners and businesses across Virginia, Maryland, and West Virginia. But some things have not changed. Chris still meets with customers personally, still oversees every project, and still believes that a handshake and your word are worth more than any contract.</p>
+                            <p>Today, Miller Tree Experts is proud to hold a perfect 5.0 Google rating backed by over 115 five-star reviews. That track record is not the result of clever marketing. It is the result of treating every customer like a neighbor, because in most cases, they are.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VALUES -->
+        <section class="section section--lg section--gray" aria-labelledby="values-title">
+            <div class="container">
+                <div class="section__header reveal">
+                    <div class="section__eyebrow">Our Values</div>
+                    <h2 id="values-title" class="section__title">What We Stand For</h2>
+                    <p class="section__desc">Every decision we make comes back to these core principles. They are not just words on a page. They guide how we treat your property, your time, and your trust.</p>
+                </div>
+
+                <div class="values__grid">
+                    <article class="value-card reveal reveal-d1">
+                        <div class="value-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3 class="value-card__title">Safety First</h3>
+                        <p class="value-card__desc">Tree work is inherently dangerous, and we never cut corners on safety. Our crew follows strict protocols, wears proper protective equipment, and assesses every job site before starting. Your family, your property, and our team all go home safe at the end of the day.</p>
+                    </article>
+
+                    <article class="value-card reveal reveal-d2">
+                        <div class="value-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
+                        <h3 class="value-card__title">Quality Workmanship</h3>
+                        <p class="value-card__desc">We do the job right the first time, every time. From clean cuts that promote healthy regrowth to thorough cleanup that leaves your property spotless, our attention to detail is what sets us apart. Our 5.0 rating is not a coincidence.</p>
+                    </article>
+
+                    <article class="value-card reveal reveal-d3">
+                        <div class="value-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                        </div>
+                        <h3 class="value-card__title">Honest Pricing</h3>
+                        <p class="value-card__desc">No hidden fees, no surprise charges, no pressure tactics. We give you a straightforward estimate before we start, explain exactly what needs to be done, and stick to the quoted price. If something changes, we talk to you first.</p>
+                    </article>
+
+                    <article class="value-card reveal reveal-d4">
+                        <div class="value-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                        </div>
+                        <h3 class="value-card__title">Customer Respect</h3>
+                        <p class="value-card__desc">We treat every property like it is our own. That means returning phone calls promptly, showing up on schedule, keeping you informed throughout the project, and making sure you are completely satisfied before we consider the job done.</p>
+                    </article>
+
+                    <article class="value-card reveal reveal-d5">
+                        <div class="value-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c-4.97 0-9-2.686-9-6v-4"/><path d="M12 22c4.97 0 9-2.686 9-6v-4"/><path d="M12 14c-4.97 0-9-2.686-9-6S7.03 2 12 2s9 2.686 9 6-4.03 6-9 6z"/><path d="M12 14v8"/></svg>
+                        </div>
+                        <h3 class="value-card__title">Environmental Care</h3>
+                        <p class="value-card__desc">We love trees. When removal is not necessary, we recommend pruning or treatment instead. We recycle wood waste, minimize our footprint on your property, and always look for the approach that keeps your landscape healthy and thriving for years to come.</p>
+                    </article>
+
+                    <article class="value-card reveal reveal-d6">
+                        <div class="value-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <h3 class="value-card__title">Community Roots</h3>
+                        <p class="value-card__desc">We live and work in the same communities we serve. Our reputation is everything, and it is built one job at a time. When you hire Miller Tree Experts, you are supporting a local family business that is invested in this valley for the long haul.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEET THE TEAM -->
+        <section class="section section--lg" aria-labelledby="team-title">
+            <div class="container">
+                <div class="team__grid">
+                    <div class="reveal">
+                        <div class="section__eyebrow">Meet the Team</div>
+                        <h2 id="team-title" class="section__title">Experienced. Certified. Ready to Work.</h2>
+                        <div class="team__content">
+                            <p>Behind every project is a crew that takes pride in what they do. Our team members are trained in proper cutting techniques, rigging systems, and safe work practices. They understand that working on your property is a privilege, and they treat it accordingly.</p>
+                            <p>From the initial consultation to the final rake of the yard, you will find our team to be courteous, communicative, and committed to getting the job done right. We invest in ongoing training to stay current with the latest arboricultural practices and safety standards, because the trees in the Shenandoah Valley deserve the best care available.</p>
+                        </div>
+                    </div>
+
+                    <div class="team__members reveal">
+                        <div class="team-card reveal reveal-d1">
+                            <div class="team-card__avatar">
+                                <img src="images/fb-profile-1.jpg" alt="Chris Miller, Owner of Miller Tree Experts">
+                            </div>
+                            <div>
+                                <div class="team-card__name">Chris Miller</div>
+                                <div class="team-card__role">Owner / Lead Arborist</div>
+                                <div class="team-card__desc">Founded Miller Tree Experts with a commitment to honest service and quality workmanship. Personally oversees every project and meets with each customer.</div>
+                            </div>
+                        </div>
+                        <div class="team-card reveal reveal-d2">
+                            <div class="team-card__avatar">
+                                <img src="images/yelp-tree-service-4.jpg" alt="The Miller Tree Experts crew">
+                            </div>
+                            <div>
+                                <div class="team-card__name">The Miller Crew</div>
+                                <div class="team-card__role">Skilled Tree Care Professionals</div>
+                                <div class="team-card__desc">An experienced team of climbers, operators, and ground crew trained in safe, efficient tree care across residential and commercial properties.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <section class="section section--lg section--gray" aria-labelledby="stats-title">
+            <div class="container">
+                <div class="section__header reveal">
+                    <div class="section__eyebrow">By The Numbers</div>
+                    <h2 id="stats-title" class="section__title">Our Track Record Speaks</h2>
+                    <p class="section__desc">We let our results do the talking. Here are the numbers behind the Shenandoah Valley&rsquo;s most trusted tree service.</p>
+                </div>
+
+                <div class="stats-big reveal">
+                    <div class="stat-big reveal reveal-d1">
+                        <div class="stat-big__number" data-count="5.0" data-decimals="1">0</div>
+                        <div class="stat-big__label">Google Rating</div>
+                    </div>
+                    <div class="stat-big reveal reveal-d2">
+                        <div class="stat-big__number" data-count="115" data-suffix="+">0</div>
+                        <div class="stat-big__label">5-Star Reviews</div>
+                    </div>
+                    <div class="stat-big reveal reveal-d3">
+                        <div class="stat-big__number" data-count="3">0</div>
+                        <div class="stat-big__label">States Served</div>
+                    </div>
+                    <div class="stat-big reveal reveal-d4">
+                        <div class="stat-big__number" data-count="1000" data-suffix="+">0</div>
+                        <div class="stat-big__label">Projects Complete</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EQUIPMENT & SAFETY -->
+        <section class="section section--lg" aria-labelledby="equipment-title">
+            <div class="container">
+                <div class="equipment__grid">
+                    <div class="equipment__image reveal">
+                        <img src="images/generated/property-trees.jpg" alt="Miller Tree Experts professional equipment at a residential job site" loading="lazy">
+                    </div>
+
+                    <div class="reveal">
+                        <div class="section__eyebrow">Equipment &amp; Safety</div>
+                        <h2 id="equipment-title" class="section__title">Professional Grade, Every Job</h2>
+                        <p class="section__desc">We invest in the right tools and the right training so every project is completed safely, efficiently, and to the highest standard. Your property and our crew are always protected.</p>
+
+                        <div class="equipment__features">
+                            <div class="equipment__feat reveal reveal-d1">
+                                <div class="equipment__feat-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                </div>
+                                <div>
+                                    <div class="equipment__feat-title">Fully Licensed &amp; Insured</div>
+                                    <div class="equipment__feat-desc">Comprehensive general liability and workers' compensation coverage on every job. Your property is always protected.</div>
+                                </div>
+                            </div>
+                            <div class="equipment__feat reveal reveal-d2">
+                                <div class="equipment__feat-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+                                </div>
+                                <div>
+                                    <div class="equipment__feat-title">Professional-Grade Equipment</div>
+                                    <div class="equipment__feat-desc">Commercial chainsaws, chippers, stump grinders, and rigging systems maintained to manufacturer specifications for safe, efficient work.</div>
+                                </div>
+                            </div>
+                            <div class="equipment__feat reveal reveal-d3">
+                                <div class="equipment__feat-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                                </div>
+                                <div>
+                                    <div class="equipment__feat-title">Rigorous Safety Protocols</div>
+                                    <div class="equipment__feat-desc">Every job begins with a thorough site assessment. Our crew follows established safety procedures, wear PPE, and communicate constantly during complex operations.</div>
+                                </div>
+                            </div>
+                            <div class="equipment__feat reveal reveal-d4">
+                                <div class="equipment__feat-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0018 9h-1.26A8 8 0 103 16.3"/></svg>
+                                </div>
+                                <div>
+                                    <div class="equipment__feat-title">Clean Job Sites</div>
+                                    <div class="equipment__feat-desc">We haul away all debris, rake the work area, and leave your property looking better than when we arrived. Complete cleanup is standard, never an add-on.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta" id="contact" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="reveal">
+                    <div class="section__eyebrow" style="color: var(--green-light);">Get In Touch</div>
+                    <h2 id="cta-title" class="cta__title">Ready to Work With Us?</h2>
+                    <p class="cta__text">Now that you know who we are and how we work, let us show you in person. Reach out for a free, no-obligation estimate and experience the Miller Tree Experts difference for yourself.</p>
+                    <a href="tel:5403131306" class="cta__phone">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        (540) 313-1306
+                    </a>
+                    <div class="cta__hours">Monday&ndash;Friday &middot; 9:00 AM &ndash; 5:00 PM</div>
+                </div>
+
+                <div class="cta__form reveal">
+                    <div class="cta__form-title">Request Your Free Estimate</div>
+                    <form action="#" method="POST" aria-label="Free estimate request form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Smith" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(540) 555-0123" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="tree-removal">Tree Removal</option>
+                                <option value="tree-trimming">Tree Trimming &amp; Pruning</option>
+                                <option value="stump-grinding">Stump Grinding</option>
+                                <option value="storm-damage">Storm Damage &amp; Emergency</option>
+                                <option value="lot-clearing">Lot Clearing</option>
+                                <option value="clean-up">Clean-Up</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Project</label>
+                            <textarea id="message" name="message" placeholder="Describe the trees, the job, and any details..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            Send Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="images/miller-tree-logo.png" alt="Miller Tree Experts LLC" width="140" height="44">
+                <p class="footer__brand-text">Professional tree care serving Virginia, Maryland, and West Virginia. Licensed, insured, and committed to quality on every job.</p>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/millertreeexpert/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/millertreeexperts/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h3 class="footer__col-title">Services</h3>
+                <ul>
+                    <li><a href="tree-removal.html">Tree Removal</a></li>
+                    <li><a href="tree-trimming.html">Tree Trimming &amp; Pruning</a></li>
+                    <li><a href="stump-grinding.html">Stump Grinding</a></li>
+                    <li><a href="storm-damage.html">Storm Damage</a></li>
+                    <li><a href="lot-clearing.html">Lot Clearing</a></li>
+                    <li><a href="clean-ups.html">Clean-Ups</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h3 class="footer__col-title">Service Areas</h3>
+                <ul>
+                    <li><a href="index-v2.html#areas">Berryville, VA</a></li>
+                    <li><a href="index-v2.html#areas">Winchester, VA</a></li>
+                    <li><a href="index-v2.html#areas">Front Royal, VA</a></li>
+                    <li><a href="index-v2.html#areas">Leesburg, VA</a></li>
+                    <li><a href="index-v2.html#areas">Charles Town, WV</a></li>
+                    <li><a href="index-v2.html#areas">Martinsburg, WV</a></li>
+                    <li><a href="index-v2.html#areas">Hagerstown, MD</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h3 class="footer__col-title">Contact</h3>
+                <div class="footer__contact-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:5403131306">(540) 313-1306</a>
+                </div>
+                <div class="footer__contact-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span>253 Chilly Hollow Rd<br>Berryville, VA 22611</span>
+                </div>
+                <div class="footer__contact-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Mon&ndash;Fri: 9AM &ndash; 5PM<br>Sat&ndash;Sun: Closed</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                &copy; 2026 Miller Tree Experts LLC. All rights reserved. &middot; Berryville, Virginia
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll reveal
+        const revealEls = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+        revealEls.forEach(el => observer.observe(el));
+
+        // Sticky nav
+        const nav = document.querySelector('.nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 20);
+        }, { passive: true });
+
+        // Mobile nav
+        const toggle = document.querySelector('.nav__toggle');
+        const mobileNav = document.querySelector('.nav__mobile');
+        toggle.addEventListener('click', () => {
+            const isOpen = mobileNav.classList.toggle('open');
+            toggle.classList.toggle('active');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        mobileNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.remove('open');
+                toggle.classList.remove('active');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav') && mobileNav.classList.contains('open')) {
+                mobileNav.classList.remove('open');
+                toggle.classList.remove('active');
+                toggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Count-up animation
+        const countEls = document.querySelectorAll('[data-count]');
+        const countObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseFloat(el.dataset.count);
+                    const decimals = parseInt(el.dataset.decimals) || 0;
+                    const suffix = el.dataset.suffix || '';
+                    const duration = 2000;
+                    const start = performance.now();
+
+                    function update(now) {
+                        const elapsed = now - start;
+                        const progress = Math.min(elapsed / duration, 1);
+                        // Ease-out cubic
+                        const eased = 1 - Math.pow(1 - progress, 3);
+                        const current = eased * target;
+
+                        if (decimals > 0) {
+                            el.textContent = current.toFixed(decimals) + suffix;
+                        } else {
+                            el.textContent = Math.floor(current).toLocaleString() + suffix;
+                        }
+
+                        if (progress < 1) {
+                            requestAnimationFrame(update);
+                        }
+                    }
+                    requestAnimationFrame(update);
+                    countObserver.unobserve(el);
+                }
+            });
+        }, { threshold: 0.3 });
+        countEls.forEach(el => countObserver.observe(el));
+    </script>
+
+</body>
+</html>

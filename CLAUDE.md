@@ -49,3 +49,4 @@ Building a professional website for Miller Tree Experts LLC, a tree-care company
 - SEO research and strategy docs in `/seo/` directory
 - WordPress theme files will go in `/theme/` directory
 - Design prioritizes: local SEO, mobile-first, fast load times, trust signals (reviews, certifications)
+- **Every change must be committed and pushed to GitHub**
