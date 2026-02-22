@@ -1,0 +1,61 @@
+/* ========================================
+   WHY CHOOSE US GRID
+   ======================================== */
+.why__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+.why__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-200);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+.why__item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+.why__icon {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    background: var(--green-pale);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+}
+.why__icon svg {
+    width: 24px;
+    height: 24px;
+}
+.why__title {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    color: var(--slate);
+    margin-bottom: 0.2rem;
+}
+.why__desc {
+    font-size: 0.85rem;
+    color: var(--slate-light);
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+@media (min-width: 640px) {
+    .why__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .why__grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

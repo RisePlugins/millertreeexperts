@@ -1,0 +1,81 @@
+/* ========================================
+   OTHER SERVICES GRID
+   ======================================== */
+.other-svc__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+.other-svc__card {
+    display: block;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+.other-svc__card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+.other-svc__img {
+    height: 180px;
+    overflow: hidden;
+}
+.other-svc__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.other-svc__card:hover .other-svc__img img {
+    transform: scale(1.05);
+}
+.other-svc__body {
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+.other-svc__title {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    color: var(--slate);
+    margin-bottom: 0.35rem;
+}
+.other-svc__desc {
+    font-size: 0.88rem;
+    color: var(--slate-light);
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+}
+.other-svc__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--green);
+    transition: gap var(--transition);
+}
+.other-svc__card:hover .other-svc__link {
+    gap: 0.6rem;
+}
+.other-svc__link svg {
+    width: 16px;
+    height: 16px;
+}
+
+@media (min-width: 640px) {
+    .other-svc__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .other-svc__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1200px) {
+    .other-svc__grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

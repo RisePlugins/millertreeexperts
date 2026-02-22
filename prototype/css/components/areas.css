@@ -1,0 +1,113 @@
+/* ========================================
+   SERVICE AREAS
+   ======================================== */
+.areas__map {
+    position: relative;
+    background: var(--slate);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    aspect-ratio: 21/9;
+    margin-bottom: var(--space-lg);
+}
+.areas__map img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+}
+.areas__map-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.areas__map-pin {
+    width: 48px; height: 48px;
+    background: var(--green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 0 8px rgba(26,122,61,0.2);
+    animation: pinPulse 2.5s ease-in-out infinite;
+}
+.areas__map-pin svg { width: 22px; height: 22px; color: white; }
+@keyframes pinPulse {
+    0%, 100% { box-shadow: 0 0 0 8px rgba(26,122,61,0.2); }
+    50% { box-shadow: 0 0 0 16px rgba(26,122,61,0.08); }
+}
+.areas__map-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+}
+.areas__map-sub {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+}
+
+.areas__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+.areas__card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.75rem;
+    transition: box-shadow var(--transition), transform var(--transition);
+}
+.areas__card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+.areas__card-heading {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--slate);
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--green-pale);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.areas__card-heading svg {
+    width: 18px; height: 18px;
+    color: var(--green);
+}
+.areas__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0;
+}
+.areas__card-list a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.88rem;
+    color: var(--slate-light);
+    padding: 0.35rem 0;
+    width: 50%;
+    transition: color var(--transition);
+}
+.areas__card-list a::before {
+    content: '';
+    width: 5px; height: 5px;
+    background: var(--green);
+    border-radius: 50%;
+    opacity: 0.4;
+    transition: opacity var(--transition);
+}
+.areas__card-list a:hover { color: var(--green); }
+.areas__card-list a:hover::before { opacity: 1; }
+
+@media (min-width: 768px) {
+    .areas__cards { grid-template-columns: repeat(3, 1fr); }
+}
