@@ -374,16 +374,16 @@ $uri = get_template_directory_uri();
                         Virginia
                     </div>
                     <div class="areas__card-list">
-                        <span>Berryville</span>
-                        <span>Winchester</span>
-                        <span>Front Royal</span>
-                        <span>Leesburg</span>
-                        <span>Purcellville</span>
-                        <span>Stephens City</span>
-                        <span>Strasburg</span>
-                        <span>Middleburg</span>
-                        <span>Round Hill</span>
-                        <span>Clarke County</span>
+                        <a href="<?php echo esc_url(home_url('/service-areas/berryville-va/')); ?>">Berryville</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/winchester-va/')); ?>">Winchester</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/front-royal-va/')); ?>">Front Royal</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/leesburg-va/')); ?>">Leesburg</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/purcellville-va/')); ?>">Purcellville</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/stephens-city-va/')); ?>">Stephens City</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/strasburg-va/')); ?>">Strasburg</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/middleburg-va/')); ?>">Middleburg</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/round-hill-va/')); ?>">Round Hill</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/clarke-county-va/')); ?>">Clarke County</a>
                     </div>
                 </div>
 
@@ -393,8 +393,8 @@ $uri = get_template_directory_uri();
                         West Virginia
                     </div>
                     <div class="areas__card-list">
-                        <span>Charles Town</span>
-                        <span>Martinsburg</span>
+                        <a href="<?php echo esc_url(home_url('/service-areas/charles-town-wv/')); ?>">Charles Town</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/martinsburg-wv/')); ?>">Martinsburg</a>
                     </div>
                 </div>
 
@@ -404,8 +404,8 @@ $uri = get_template_directory_uri();
                         Maryland
                     </div>
                     <div class="areas__card-list">
-                        <span>Hagerstown</span>
-                        <span>Frederick</span>
+                        <a href="<?php echo esc_url(home_url('/service-areas/hagerstown-md/')); ?>">Hagerstown</a>
+                        <a href="<?php echo esc_url(home_url('/service-areas/frederick-md/')); ?>">Frederick</a>
                     </div>
                 </div>
             </div>
