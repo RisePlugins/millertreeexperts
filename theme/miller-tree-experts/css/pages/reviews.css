@@ -7,6 +7,7 @@
     background: var(--green-wash);
     min-height: auto;
     text-align: center;
+    padding-bottom: var(--space-lg);
 }
 .page-hero .container {
     display: flex;
