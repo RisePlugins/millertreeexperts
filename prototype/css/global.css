@@ -53,7 +53,7 @@
     }
 }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 20px; }
 
 body {
     font-family: var(--font-body);
